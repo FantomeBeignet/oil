@@ -19,7 +19,7 @@
  (name oil)
  (synopsis "Ocaml Input Library")
  (description "Ocaml Input Library for pretty CLI apps")
- (depends ocaml dune)
+ (depends ocaml dune fmt lwt.unix)
  (tags
   (cli input prompt)))
 

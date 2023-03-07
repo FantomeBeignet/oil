@@ -12,6 +12,8 @@ bug-reports: "https://github.com/FantomeBeignet/oil/issues"
 depends: [
   "ocaml"
   "dune" {>= "3.7"}
+  "fmt"
+  "lwt.unix"
   "odoc" {with-doc}
 ]
 build: [
