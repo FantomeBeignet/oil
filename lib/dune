@@ -1,3 +1,4 @@
 (library
  (public_name oil)
- (name oil))
+ (name oil)
+ (libraries fmt lwt.unix))
